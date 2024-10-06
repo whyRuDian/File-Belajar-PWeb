@@ -1,0 +1,65 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Layout ke 2</title>
+    <style type="text/css">
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td {
+            border: 0.1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        .menu {
+            height: 50px;
+        }
+        .header, .footer {
+            height: 100px;
+        }
+        .content {
+            height: 200px;
+        }
+        .logo {
+            width: 20%;
+            vertical-align: top;
+        }
+        .main-header {
+            width: 80%;
+        }
+        .news, .login-form {
+            width: 25%;
+            height: 100px;
+        }
+        .login-form {
+            width: 30%;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="3" class="menu">MENU</td>
+            <td class="menu">PENCARIAN</td>
+        </tr>
+        <tr>
+            <td class="logo">LOGO</td>
+            <td colspan="3" class="main-header">HEADER</td>
+        </tr>
+        <tr>
+            <td class="news">BERITA 1</td>
+            <td class="news">BERITA 2</td>
+            <td class="news">BERITA 3</td>
+            <td class="login-form">FORM LOGIN</td>
+        </tr>
+        <tr>
+            <td colspan="4" class="footer">FOOTER</td>
+        </tr>
+    </table>
+</body>
+</html>

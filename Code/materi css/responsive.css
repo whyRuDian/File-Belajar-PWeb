@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Arial, Helvetica, sans-serif';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    /* viewport height */
+    background-color: aqua;
+}
+
+.container{
+    display: flex;
+    width: 80%;
+    max-width: 900px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-section{
+    flex: 1;
+    background-color: 1;
+}
+
+.login-section {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-section h2 {
+    color: blue;    
+}
+
+.login-button {
+    width: 100%;
+    padding: 5px; 
+}
+
+@media (max-width: 720px) {
+    .container {
+        flex-direction: column;
+    }
+
+    /* .image-section{
+        display: none;
+    } */
+}

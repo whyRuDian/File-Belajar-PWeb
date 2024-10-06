@@ -1,0 +1,33 @@
+div = elemen html yang digunakan sebagai
+    kontainer untuk mengelompokkan elemen lain dan menerapkan gaya
+    atau pengaturan tertentu
+    = buat pengaturan layout
+
+* = selector universal di css
+
+class, lambangnya titik ., bisa dipakai lebih dari 1
+id, lambangnya #, cuma bisa dipakai 1 kali
+
+.col-lg-3:
+
+lg adalah singkatan dari "large" (besar), yang mengacu pada ukuran layar yang lebih besar, 
+biasanya tablet dan desktop.
+3 menunjukkan bahwa kolom ini akan mengambil 3 dari 12 
+bagian grid pada ukuran layar besar. Jadi, jika Anda membagi 
+layar menjadi 12 kolom, kolom ini akan menempati 25% 
+dari lebar layar (3/12).
+
+md adalah singkatan dari "medium" (sedang), 
+yang mengacu pada ukuran layar medium, seperti tablet.
+6 menunjukkan bahwa kolom ini akan mengambil 6 dari 12
+bagian grid pada ukuran layar medium. Ini berarti 
+kolom ini akan menempati 50% dari lebar layar (6/12).
+
+.mb-3:
+
+mb adalah singkatan dari "margin-bottom" (margin bawah).
+3 menunjukkan ukuran margin bawah. Dalam Bootstrap, 
+angka ini biasanya merujuk pada ukuran yang telah 
+ditentukan dalam satuan rem (atau piksel), dan 3 
+biasanya setara dengan 1 rem atau 16 piksel 
+(tergantung pada pengaturan CSS dasar).

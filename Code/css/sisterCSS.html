@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Mahasiswa</title>
+    <link rel="stylesheet" href="sister.css">
+</head>
+<body>
+    <div id="header">
+        <img src="https://i.ibb.co.com/cYDqdXZ/image-removebg-preview-1.png" width="100" height="100" alt="Logo Unej">
+        <h2>SISTER INFORMASI UNIVERSITAS JEMBER</h2>
+    </div>
+    
+<div id="fieldset">
+        <h1 align="center">BIODATA MAHASISWA</h1>
+        <input type="hidden" name="halaman" value="1">
+        <p align="center">Masukkan identitas diri anda dengan benar!</p>
+        <table border="0">
+            <tr>
+                <td><label for="nama">Nama lengkap:</label></td>
+                <td><input type="text" name="nama" id="nama" maxlength="40" size="20"></td>
+            </tr>
+            <tr>
+                <td><label for="NIM">NIM:</label></td>
+                <td><input type="number" name="nim" id="nim"></td>
+            </tr>
+            <tr>
+                <td><label for="jenkel">Jenis kelamin:</label></td>
+                <td>
+                    <input type="radio" name="jenkel" id="jenkelL" value="L"> Laki-laki<br>
+                    <input type="radio" name="jenkel" id="jenkelP" value="P"> Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td><label for="alamat">Alamat:</label></td>
+                <td><textarea name="alamat" id="alamat" rows="3" cols="30"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="tahunmasuk">Tahun Masuk:</label></td>
+                <td><input type="number" name="tahunmasuk" id="tahunmasuk" min="1900" max="2100"></td>
+            </tr>
+            <tr>
+                <td><label for="tanggallahir">Tanggal Lahir:</label></td>
+                <td><input type="date" name="tanggallahir" id="tanggallahir"></td>
+            </tr>
+            <tr>
+                <td><label for="asalsma">Asal SMA:</label></td>
+                <td><input type="text" name="asalsma" id="asalsma"></td>
+            </tr>
+            <tr>
+                <td><label for="nomorhp">Nomor HP:</label></td>
+                <td><input type="tel" name="nomorhp" id="nomorhp"</td>
+            </tr>
+            <tr>
+                <td><label for="nomorktp">Nomor KTP:</label></td>
+                <td><input type="text" name="nomorktp" id="nomorktp" pattern="[0-9]{16}" maxlength="16"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="khusus">Berkebutuhan Khusus/Disabilitas: </label></td>
+                <td>
+                  <input type="radio" name="khusus" id="disabilitasY" value="DY">Iya<br>
+                  <input type="radio" name="khusus" id="disabilitasN" value="DN">Tidak
+                </td>
+
+            </tr>
+            <tr>
+                <td><label for="ijazah">Ijazah Terakhir: </label></td>
+                <td><input type="file" name="ijazah" id="ijazah"></td>
+            </tr>
+            <tr>
+                <td><label for="nilaiutbk">Nilai UTBK: </label></td>
+                <td><input type="text" name="nilaiutbk" id="nilaiutbk"></td>
+            </tr>
+        </table>
+    </fieldset>
+        <div align="center">
+            <input type="submit" value="Kirim">
+            <input type="reset"
+        </div>
+    </form>
+    
+</body>
+</html>
+
